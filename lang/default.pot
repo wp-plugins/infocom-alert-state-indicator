@@ -1,0 +1,3 @@
+#: isc-alert-state-indicator.php:102
+msgid "Colored text, links to isc.sans.org"
+msgstr

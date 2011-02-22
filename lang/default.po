@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: isc-alert-state-indicator 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 00:44+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Thomas Amm <incoming.lists@ax11.de>\n"
+"Language-Team:  <incoming.lists@ax11.de>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: /home/tom/public_html/projects/infocom-alert-state-indicator/trunk\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /home/tom/public_html/projects/infocom-alert-state-indicator/trunk/isc-alert-widget.php:94
+msgid "Title:"
+msgstr "Tilel:"
+
+#: /home/tom/public_html/projects/infocom-alert-state-indicator/trunk/isc-alert-widget.php:109
+msgid "simple ASCII text"
+msgstr "text: Einfaches Textdokument"
+
+#: /home/tom/public_html/projects/infocom-alert-state-indicator/trunk/isc-alert-widget.php:110
+msgid "color, link to isc.sans.org"
+msgstr "Farbtext, linkt zu isc.sans.org"
+
+#: /home/tom/public_html/projects/infocom-alert-state-indicator/trunk/isc-alert-widget.php:111
+msgid "small image, linked to isc.sans.org"
+msgstr "kleine Grafik, linkt zu isc.sans.org"
+
+#: /home/tom/public_html/projects/infocom-alert-state-indicator/trunk/isc-alert-widget.php:112
+msgid "regular image, linked to isc.sans.org"
+msgstr "Grafik in Normalgrösse, linkt zu isc.sans.org"
+
