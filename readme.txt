@@ -3,7 +3,7 @@ Contributors: AX11
 
 Tags: infocon, internet, threat-level
 Requires at least: 2.6
-Tested up to: 3.0.5
+Tested up to: 3.1
 Stable tag: /trunk/
 == Description ==
 
@@ -12,9 +12,9 @@ in a widget. You can choose between, text, colored text, small and regular image
 
 == Installation ==
 
-1. Unzip and upload the complete directory `isc-alert-widget` to the `/wp-content/plugins/` directory
+1. Unzip and upload the complete directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Place the widget in your widget
+3. Place the widget in your widget area of choice
 
 == Frequently Asked Questions ==
 None, so far
@@ -24,3 +24,6 @@ None, so far
 
 = 1.0 =
 Release
+
+=1.0.1=
+Fixed readme, updated compatibility information
