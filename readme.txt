@@ -3,7 +3,7 @@ Contributors: AX11
 
 Tags: infocon, internet, threat-level
 Requires at least: 2.6
-Tested up to: 3.1
+Tested up to: 3.4.2
 Stable tag: /trunk/
 == Description ==
 

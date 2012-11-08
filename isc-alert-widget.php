@@ -2,7 +2,7 @@
 /*
 Plugin Name: Infocon Alert State Indicator
 Description: Displays the infocon state as indicated by the ISC as an image, link or as colored text. Note: 'IMG' will display a GIF sized 354x92, suitable for footers or wide sidebars, 'SMALLIMG' scales the same image down to 177x48 px. 
-Version: 1.00
+Version: 1.01devel
 Author: ax11
 Author URI: http://www.ax11.de
 License: GPL
@@ -52,7 +52,7 @@ class ISCAlertSC extends WP_Widget
 	 *  http://codex.wordpress.org/Widgets_API
 	 */
     function ISCAlertSC() {
-        parent::WP_Widget(false, $name = 'ISCAlertSC');	
+        parent::WP_Widget(false, $name = 'Infocom Status Widget');	
      
     } 
 
@@ -85,7 +85,7 @@ class ISCAlertSC extends WP_Widget
 
     /** @see WP_Widget::form */
     function form($instance) {
-    	$defaults = array( 'title' => 'Infocom Status', 'format' => 'TXT' );
+    	$defaults = array( 'title' => 'Infocon Status', 'format' => 'TXT' );
 		$instance = wp_parse_args( (array) $instance, $defaults ); 
         $title = esc_attr($instance['title']);
         $format = esc_attr($instance['format']);
@@ -148,10 +148,9 @@ class ISCAlertSC extends WP_Widget
 
 	
     /** 
-	*	ISCAlertSC::ISCAlertSC 
-	*	Define some (mostly still unused) arrays, try to open URI of ISC's text-only status service
+	*	ISCAlertSC::PrintAlert 
+	*	Define some arrays, try to open URI of ISC's text-only status service
 	*	exit smoothly at fail.
-	*	@todo: directory tree, svn
 	*/
 	public function PrintAlert()
 	{ 
@@ -185,7 +184,7 @@ class ISCAlertSC extends WP_Widget
 		{
 			$sizestring=' width="354" height="92"';
 		}
-		echo '<a href="http://isc.sans.org/"><img src="'.self::IMGURI.'"'.$sizestring.' alt="ISC Infocon Status:"'.$this->IscState.'"/></a>';
+		echo '<a href="http://isc.sans.org/"><img src="'.self::IMGURI.'"'.$sizestring.' alt="Infocon Status:"'.$this->IscState.'"/></a>';
 	}
 	
 } // class ISCAlertSC
